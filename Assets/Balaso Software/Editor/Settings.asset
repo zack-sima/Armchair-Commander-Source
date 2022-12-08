@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c56f4cdea334434a135cc542728d53, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  UseLocalizationValues: 1
+  LocalizedPopupMessageDictionary:
+    keys: 0a0000000e0000000f0000000500000022000000060000001600000017000000
+    values:
+    - Pressing 'Allow' uses device info for more relevant ad content
+    - "'Autoriser' permet d'utiliser les infos du t\xE9l\xE9phone pour afficher des
+      contenus publicitaires plus pertinents"
+    - "'Erlauben' dr\xFCcken benutzt Ger\xE4tinformationen f\xFCr relevantere Werbeinhalte"
+    - "Prement 'Permetre', s'utilitza la informaci\xF3 del dispositiu per a obtindre
+      contingut publicitari m\xE9s rellevant"
+    - "Presionando 'Permitir', se usa la informaci\xF3n del dispositivo para obtener
+      contenido publicitario m\xE1s relevante"
+    - "\u70B9\u51FB'\u5141\u8BB8'\u4EE5\u4F7F\u7528\u8BBE\u5907\u4FE1\u606F\u83B7\u5F97\u66F4\u52A0\u76F8\u5173\u7684\u5E7F\u544A\u5185\u5BB9"
+    - "'\u8A31\u53EF'\u3092\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3053\u3068\u3067\u3001\u30C7\u30D0\u30A4\u30B9\u60C5\u5831\u3092\u5143\u306B\u3088\u308A\u6700\u9069\u306A\u5E83\u544A\u3092\u8868\u793A\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+    - "'\uD5C8\uC6A9'\uC744 \uB204\uB974\uBA74 \uB354 \uAD00\uB828\uC131 \uB192\uC740
+      \uAD11\uACE0 \uCF58\uD150\uCE20\uB97C \uC81C\uACF5\uD558\uAE30 \uC704\uD574
+      \uAE30\uAE30 \uC815\uBCF4\uAC00 \uC0AC\uC6A9\uB429\uB2C8\uB2E4"
+  SkAdNetworkIds: []

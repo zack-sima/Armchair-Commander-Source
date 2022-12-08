@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6697685717108300957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8706018046848703983}
+  - component: {fileID: 6153416490351318387}
+  m_Layer: 0
+  m_Name: SoldierPrefabController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8706018046848703983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697685717108300957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6153416490351318387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697685717108300957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82be393a6495547bfa2fb066432d5bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sovietSMG: {fileID: 21300000, guid: c5cee6dea45a74f4ea80100bf20af437, type: 3}
+  sovietLMG: {fileID: 21300000, guid: 75c950c2981764272b7669a439dd8753, type: 3}
+  americanSMG: {fileID: 21300000, guid: ec2e081847e2f4bf8a6ea35fec1c84c0, type: 3}
+  americanLMG: {fileID: 21300000, guid: 0d34835caa3c84a0a89848015a1ea3d2, type: 3}
+  troopPrefabs:
+  - {fileID: 5287753456675078766, guid: fc1c0f62a1f3f41389e74762015e18c3, type: 3}
+  - {fileID: 5287753456675078766, guid: 4b84ffd55bf494eeb89335415bea973b, type: 3}
+  - {fileID: 4557067672462723081, guid: 4165f54671c054bfab4aadc2c88cd386, type: 3}
+  - {fileID: 4557067672462723081, guid: 4682318834d2941749a4999c007fd18c, type: 3}
+  - {fileID: 4557067672462723081, guid: 94d631cd93d434305ae6c9b78e2aa9f6, type: 3}
+  - {fileID: 5287753456675078766, guid: b40d8cfedba2f4499a25cbbc5e5daaa6, type: 3}
+  - {fileID: 5287753456675078766, guid: 7d4926c1515694771844116ba96aa46a, type: 3}
+  - {fileID: 4557067672462723081, guid: e8aa36685c2db4f8fbe1fc435453f13c, type: 3}
+  - {fileID: 4557067672462723081, guid: 26eb92b7efc3b4b0f8fc82c90c4d833c, type: 3}
+  - {fileID: 4557067672462723081, guid: 150ffecb7f2ee472f82e24e08edfb33e, type: 3}
+  - {fileID: 4557067672462723081, guid: cae345ecb59004e939d9965aac517b06, type: 3}
+  - {fileID: 4557067672462723081, guid: 0ad232c3ee1c94bd1a85851a6a7548b1, type: 3}
+  - {fileID: 4557067672462723081, guid: 651d001151d3b41b79a5a5d716b3fede, type: 3}
+  - {fileID: 4557067672462723081, guid: 852deec9e84b14826b461f5027a1ea2e, type: 3}
+  - {fileID: 4557067672462723081, guid: 76c363ca8c9a8462cb7b416b88a60ab3, type: 3}
+  - {fileID: 4557067672462723081, guid: 6c548b1de76b6445882e762fb72eba9d, type: 3}
+  - {fileID: 4557067672462723081, guid: e0194605e0bdc40309e7b0656d99cd85, type: 3}
+  - {fileID: 5287753456675078766, guid: 6ed85decd51e04267a2f99a0dfd42c54, type: 3}
+  - {fileID: 4557067672462723081, guid: c9de2e07feae442788f052991e4319f8, type: 3}
+  - {fileID: 4557067672462723081, guid: bebbe09c86e984408aed1885087eafbc, type: 3}
+  - {fileID: 4557067672462723081, guid: e64874394a5664716abafebea768d35f, type: 3}
+  - {fileID: 4557067672462723081, guid: a22364fa368c24c2aa268d5622df86cb, type: 3}
+  countriesIsNeutral:
+  - Portugal
+  - NeutralSpain
+  - Switzerland
+  - Sweden
+  - Ireland
+  - Lithuania
+  - Latvia
+  - Estonia
+  - Iran
+  - Iraq
+  - Turkey
+  - NeutralSoviet
+  - NeutralUK
+  - NeutralFrance
+  - ChineseTibet
+  - Mongolia
+  - NeutralThailand

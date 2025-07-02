@@ -1,2 +1,1 @@
-# Armchair-Commander-Source
- Source code (stripped of sensitive information) for Armchair Commander. Documentation for mods coming soon!
+Use Unity 2021.3.19f1 to open.

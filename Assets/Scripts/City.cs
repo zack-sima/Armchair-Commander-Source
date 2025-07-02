@@ -32,21 +32,21 @@ public class City : MonoBehaviour {
     public float CalculateMaxHealth() {
         float maxHealth = -1;
         switch (defenceTier) {
-        case 1:
-            maxHealth = 75;
-            break;
-        case 2:
-            maxHealth = 175;
-            break;
-        case 3:
-            maxHealth = 300;
-            break;
-        case 4:
-            maxHealth = 500;
-            break;
-        case 5:
-            maxHealth = 800;
-            break;
+            case 1:
+                maxHealth = 75;
+                break;
+            case 2:
+                maxHealth = 175;
+                break;
+            case 3:
+                maxHealth = 300;
+                break;
+            case 4:
+                maxHealth = 500;
+                break;
+            case 5:
+                maxHealth = 800;
+                break;
         }
         return maxHealth;
     }
@@ -198,85 +198,85 @@ public class City : MonoBehaviour {
         }
         if (defenceTier != currentDefenceTier) {
             switch (defenceTier) {
-            case 1:
-                defenceTierText.text = "I";
-                break;
-            case 2:
-                defenceTierText.text = "II";
-                break;
-            case 3:
-                defenceTierText.text = "III";
-                break;
-            case 4:
-                defenceTierText.text = "IV";
-                break;
-            case 5:
-                defenceTierText.text = "V";
-                break;
+                case 1:
+                    defenceTierText.text = "I";
+                    break;
+                case 2:
+                    defenceTierText.text = "II";
+                    break;
+                case 3:
+                    defenceTierText.text = "III";
+                    break;
+                case 4:
+                    defenceTierText.text = "IV";
+                    break;
+                case 5:
+                    defenceTierText.text = "V";
+                    break;
             }
         }
         if (factoryTier != currentFactoryTier) {
             switch (factoryTier) {
-            case 1:
-                factoryTierText.text = "I";
-                break;
-            case 2:
-                factoryTierText.text = "II";
-                break;
-            case 3:
-                factoryTierText.text = "III";
-                break;
-            case 4:
-                factoryTierText.text = "IV";
-                break;
-            case 5:
-                factoryTierText.text = "V";
-                break;
+                case 1:
+                    factoryTierText.text = "I";
+                    break;
+                case 2:
+                    factoryTierText.text = "II";
+                    break;
+                case 3:
+                    factoryTierText.text = "III";
+                    break;
+                case 4:
+                    factoryTierText.text = "IV";
+                    break;
+                case 5:
+                    factoryTierText.text = "V";
+                    break;
             }
         }
         if (airportTier != currentAirportTier) {
             switch (airportTier) {
-            case 1:
-                airportTierText.text = "I";
-                break;
-            case 2:
-                airportTierText.text = "II";
-                break;
-            case 3:
-                airportTierText.text = "III";
-                break;
+                case 1:
+                    airportTierText.text = "I";
+                    break;
+                case 2:
+                    airportTierText.text = "II";
+                    break;
+                case 3:
+                    airportTierText.text = "III";
+                    break;
             }
         }
         if (nuclearTier != currentNuclearTier) {
             switch (nuclearTier) {
-            case 1:
-                nuclearTierText.text = "I";
-                break;
-            case 2:
-                nuclearTierText.text = "II";
-                break;
-            case 3:
-                nuclearTierText.text = "III";
-                break;
+                case 1:
+                    nuclearTierText.text = "I";
+                    break;
+                case 2:
+                    nuclearTierText.text = "II";
+                    break;
+                case 3:
+                    nuclearTierText.text = "III";
+                    break;
             }
         }
         if (currentTier != tier) {
             switch (tier) {
-            case 1:
-                tierText.text = "I";
-                break;
-            case 2:
-                tierText.text = "II";
-                break;
-            case 3:
-                tierText.text = "III";
-                break;
-            case 4:
-                tierText.text = "IV";
-                break;
-            case 5:
-                tierText.text = "V";
-                break;
+                case 1:
+                    tierText.text = "I";
+                    break;
+                case 2:
+                    tierText.text = "II";
+                    break;
+                case 3:
+                    tierText.text = "III";
+                    break;
+                case 4:
+                    tierText.text = "IV";
+                    break;
+                case 5:
+                    tierText.text = "V";
+                    break;
             }
         }
         currentFactoryTier = factoryTier;

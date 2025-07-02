@@ -1,0 +1,6 @@
+{
+    "AutomatedSetup": true,
+    "PhotoLibraryUsageDescription": "The app requires access to Photos for users to upload data only.",
+    "PhotoLibraryAdditionsUsageDescription": "",
+    "DontAskLimitedPhotosPermissionAutomaticallyOnIos14": true
+}
